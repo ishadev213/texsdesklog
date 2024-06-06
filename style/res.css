@@ -1,0 +1,295 @@
+
+
+
+@media only screen and (min-width: 1200px){
+    .min-row {
+        margin: 0 2% !important;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .s-phara {
+        width: 95%;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .offline-dash-bord{
+        width: 100%;
+    }
+    .pl-md{
+        padding-left: 85px !important;
+}
+}
+@media only screen and (max-width: 992px){
+    /*  */
+    .mt-md-6{
+        margin-top: 2px !important;
+    }
+    .gap-sm {
+        gap: 1.5rem;
+    }
+    .gap-lg{
+        gap: 2.3rem;
+    }
+    /*  */
+    .banner>.bg-image {
+        background-size: 100% 100%;
+        padding-bottom: 30px;
+    }
+    .start-btn, .demo-btn {
+        padding: 15px 34px;
+    }
+    .feature .content {
+        .row+.row {
+            border-top: none;
+        }
+        .featur-list+.featur-list {
+            border-left: none;
+
+        }
+        .featur-list:nth-child(even){
+            border-left: solid 1px #EBEBEB;
+
+        }
+        .row:last-child .featur-list:nth-last-child(2){
+            border-bottom: none;
+        }
+        .row:last-child .featur-list:nth-last-child(1){
+            border-bottom: none;
+        }
+        .featur-list {
+            border-bottom: solid 1px #EBEBEB;
+        }
+    }
+    .leave-bg{
+        background-position: center;
+        background-size: 100% 100%;
+        padding: 3rem 0;
+    }
+.t-track-dash {
+    width: 60%;
+}
+.kanban-v::before {
+    overflow: hidden;
+    background-size: 150% 100%;
+}
+.kanban-v::after {
+    overflow: hidden;
+    background-size: 150% 100%;
+}
+.kanban-v {
+    & .content {
+        border-radius: 10px 10px 0 0;
+    }
+    & .view-bord {
+        border-radius: 0 0 10px 10px;
+    }
+}
+.box-b2+.box-b2::before {
+    border-left: none;
+}
+.box-b2+.box-b2:nth-child(even):before {
+    border-left: solid 1px #EBEBEB;
+}
+.traking-dash {
+    width: 70%;
+}
+.dash-bord-img {
+    width: 70%;
+}
+.leave-d-bord {
+    width: 70%;
+}
+.offline-dash-bord{
+    width: 75%;
+}
+.trans-box::after {
+    display: none;
+}
+
+.min-row {
+    margin: 0 20px !important;
+}
+.time-request {
+    & .content {
+        border-radius: 10px 10px 0 0;
+    }
+    & .view-bord {
+        border-radius: 0 0 10px 10px;
+    }
+}
+.dash-bord-img2 {
+    width: 70%;
+}
+.lap-img{
+    min-height: 505px !important;
+}
+.idle-time {
+    padding: 75px 30px 0 30px !important;
+}
+.lap-img .lap-img-child {
+    right: -14px;
+}
+}
+
+
+
+
+
+/* =========786============== */
+  @media only screen and (max-width: 768px) {
+    .s-phara{
+        width: 95% !important;
+    }
+      .gap-md {
+          gap: 2rem;
+      }
+      .gap-sm {
+          gap: 1.5rem;
+      }
+    .banner > .bg-image{
+        background-size: cover;
+    }
+    .feature .featur-list .box p {
+        margin: 11px 0;
+    }
+    .featur-list:nth-child(even){
+        border-left: none !important;
+
+    }
+    .row:last-child .featur-list:nth-last-child(2){
+        border-bottom: solid 1px #EBEBEB !important;
+    }
+    & .box-icon+.box-icon::before {
+        content: '';
+        width: 61%;
+        position: absolute;
+        transform: translate(-50%, -0%) !important;
+        border-left: none !important;
+    }
+    .pl-md{
+        padding: 0 18px !important;
+}
+.txt-res{
+    text-align: center;
+}
+.trans-box::after {
+    height: 10%;
+}
+.point-icon {
+    margin-top: 24px;
+}
+.s-phara2{
+    width: 100%;
+    margin: 0 auto;
+ }
+ .get_start_obj{
+    display: none !important;
+ }
+ .box-b2+.box-b2:nth-child(even):before {
+    border-left: none;
+}
+.web-timer-img{
+    width: 70% !important;
+}
+.w-box {
+    border-radius: 6px;
+    padding: 18px 21px;
+    min-height: unset;
+    margin: 6px 0;
+}
+.shift-d-bord {
+    width: 60%;
+}
+
+.gap-xs{
+    gap: 0.5rem;
+}
+.trail-banner p {
+    line-height: 31px;
+}
+.trail-banner .trail-btn {
+    margin: 12px 0;
+}
+.trail-banner .trail-heading {
+    font-size: 29px;
+    letter-spacing: 1px;
+    line-height: 41px;
+}
+.trail-banner {
+    background-size: 200% 100%;
+}
+.gapxs{
+    gap: 0.5rem;
+}
+  }
+
+
+
+/* =========================== */
+  @media only screen and (max-width: 600px) {
+    /* text */
+    .head-phara {
+        font-size: 16px;
+        line-height: 34px;
+        letter-spacing: 0.03em;
+    }
+    .head-2 {
+        font-size: 26px;
+        letter-spacing: 0.03rem;
+        line-height: 35px;
+        margin-bottom: 14px;
+    }
+    .st-head {
+        font-size: 18px;
+        margin-bottom: 9px;
+    }
+    .point-icon p {
+        font-size: 15px;
+    }
+    .point-icon {
+        margin-top: 17px !important;
+    }
+    /*  */
+    .feature .content {
+        padding: 20px;
+    }
+    .banner .content p {
+        font-size: 16px;
+    }
+    .banner .content h1 {
+        font-size: 40px;
+    }
+    .start-btn, .demo-btn {
+        padding: 8px 13px !important;
+    }
+    .gap-own {
+        margin: 41px 0 !important;
+    }
+    .feature .content {
+        border-radius: 5px;
+    }
+    .kanban-v .content {
+        & .inner-content {
+            padding: 24px 19px;
+        }
+    }
+    .kanban-v {
+        & .content {
+           padding: 7px;
+        }
+        & .view-bord {
+          padding: 6%;
+        }
+    }
+    .t-track-dash {
+        width: 75% !important;
+    }
+    .dash-bord-img {
+        width: 75% !important;
+    }
+  }
+ 
+
+
+
